@@ -22,3 +22,6 @@ jobs:
 
       - name: Build
         run: npm run build:prod
+
+      - name: Run tests
+        run: npm test -- --watchAll=false
