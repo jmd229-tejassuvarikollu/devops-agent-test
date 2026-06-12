@@ -8,7 +8,8 @@
     "build": "vite build",
     "build:prod": "vite build --mode production",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "echo \"No tests defined\" && exit 0"
   },
   "dependencies": {
     "react": "^18.3.1",
