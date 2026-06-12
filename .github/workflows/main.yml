@@ -18,10 +18,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Generate ESLint config
-        run: npm init @eslint/config
+        run: npx @eslint/create-config
 
       - name: Lint
         run: npm run lint
